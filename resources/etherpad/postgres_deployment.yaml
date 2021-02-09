@@ -65,6 +65,6 @@ spec:
       restartPolicy: Always
       volumes:
       - name: postgresql-data
-          emptyDir: {}
+        emptyDir: {}
 #          persistentVolumeClaim:
 #            claimName: postgresql
